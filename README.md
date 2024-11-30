@@ -12,20 +12,20 @@ Follow these instructions to set up the project on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Shailendra-vi/users
 ```
 
-Replace `<repository-url>` with the actual URL of the repository.
+Replace `https://github.com/Shailendra-vi/users` with the actual URL of the repository.
 
 ---
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd <project-directory>
+cd users
 ```
 
-Replace `<project-directory>` with the folder name where the project was cloned.
+Replace `users` with the folder name where the project was cloned.
 
 ---
 

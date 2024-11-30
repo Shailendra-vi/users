@@ -35,7 +35,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<UserTable loading={loading} error={error} />} />
+          <Route path="/users" element={<UserTable loading={loading} error={error} />} />
           <Route path="/user/:id" element={<UserDetails />} />
         </Routes>
       </Router>
