@@ -9,6 +9,7 @@ const UserDetails = () => {
     const { id } = useParams();
     const user = userList?.find((user) => user.id === parseInt(id));
 
+    // If user not found
     if (!user) {
         return (
             <div className="flex justify-center items-center h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
