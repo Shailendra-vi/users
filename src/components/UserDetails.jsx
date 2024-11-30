@@ -81,7 +81,7 @@ const UserDetails = () => {
                 <div className="bg-gray-700 p-4 text-center">
                     <div
                         className="text-blue-400 hover:text-blue-500 font-semibold transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
-                        onClick={() => navigate("/")}
+                        onClick={() => navigate("/users")}
                     >
                         ← Back to User List
                     </div>
